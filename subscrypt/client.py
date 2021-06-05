@@ -122,15 +122,3 @@ class Subscrypt:
         return self._get(
             '/subsCrypt/isConnected/'
         )
-        
-
-
-
-
-
-
-
-
-
-
-
