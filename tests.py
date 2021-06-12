@@ -1,5 +1,4 @@
-from unittest import TestCase
-
+import unittest
 from subscrypt import Subscrypt
 import json
 
@@ -7,7 +6,7 @@ with open('config.json', 'r') as f:
     config = json.load(f)
 
 
-class TestSubscrypt(TestCase):
+class TestSubscrypt(unittest.TestCase):
     def setUp(self):
         self.client = Subscrypt()
 
@@ -75,4 +74,8 @@ class TestSubscrypt(TestCase):
         for i in range(len(config['test']['plansData'])):
             self.assertEqual(
                 self.client.get_plan_characteristics(config['test']['providerAddress'],
-                                          i), config['test']['plansCharacteristic'][i])
+                                                     i), config['test']['plansCharacteristic'][i])
+
+
+if __name__ == '__main__':
+    unittest.main()
