@@ -24,4 +24,4 @@ True
 
 # Docs
 
-You can access the docs [here](/docs)
+This service is a RESTful API and you can see our api documentation [here](http://206.189.154.160:3000/subscrypt-doc).
