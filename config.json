@@ -1,43 +1,22 @@
 {
-  "nodeAddress": "http://206.189.154.160:3000/",
+  "nodeAddress": "https://api.subscrypt.io/",
   "test": {
-    "userAddress": "5HpG9w8EBLe5XCrbczpwq5TSXvedjrBGCwqxK1iQ7qUsSWFc",
-    "providerAddress": "5GNJqTPyNqANBkUVMN1LPPrxXnFouWXoe2wNSmmEoLctxiZY",
+    "userAddress": "5GpAVjP8rH5mNeUrd98YgP9AU3bAMMV5RPWzqwrwDh9qEHKy",
+    "providerAddress": "5Dyu5YxLufavjPg8vP31BhKs5xz8ncdkQcNdGwf5XtW4C9Ym",
     "passWord": "password",
     "username": "user",
-    "providerUsername": "provider",
+    "providerUsername": "oxydev",
     "plansData": [
       {
-        "duration": "86,400,000",
-        "price": "1,000,000",
-        "max_refund_permille_policy": "100",
-        "disabled": false
-      },
-      {
-        "duration": "864,000,000",
-        "price": "9,000,000",
-        "max_refund_permille_policy": "150",
-        "disabled": false
-      },
-      {
-        "duration": "1,728,000,000",
-        "price": "16,000,000",
+        "duration": "7,776,000,000",
+        "price": "1,000,000,000,000",
         "max_refund_permille_policy": "200",
         "disabled": false
       }
     ],
     "plansCharacteristic": [
       [
-        "plan0"
-      ],
-      [
-        "plan1_0",
-        "plan1_1"
-      ],
-      [
-        "plan2_0",
-        "plan2_1",
-        "plan2_2"
+        "email"
       ]
     ]
   }
