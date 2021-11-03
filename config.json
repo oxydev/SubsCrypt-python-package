@@ -1,22 +1,22 @@
 {
   "nodeAddress": "https://api.subscrypt.io/",
   "test": {
-    "userAddress": "5GpAVjP8rH5mNeUrd98YgP9AU3bAMMV5RPWzqwrwDh9qEHKy",
-    "providerAddress": "5Dyu5YxLufavjPg8vP31BhKs5xz8ncdkQcNdGwf5XtW4C9Ym",
-    "passWord": "password",
-    "username": "user",
-    "providerUsername": "oxydev",
+    "userAddress": "5DnTpgDUtZ5jiRi2iN1LXWUWDm7FjKnU6Px5EiWV24n5mE77",
+    "providerAddress": "5E1CtWAkJAJ2HhNMeSwA4bYkWNWzYKSzvcTHNXP4WPZ75NZk",
+    "passWord": "weten",
+    "username": "r4yrl",
+    "providerUsername": "uj37o",
     "plansData": [
       {
-        "duration": "7,776,000,000",
+        "duration": "86,400",
         "price": "1,000,000,000,000",
-        "max_refund_permille_policy": "200",
+        "max_refund_permille_policy": "100",
         "disabled": false
       }
     ],
     "plansCharacteristic": [
       [
-        "email"
+        "plan0"
       ]
     ]
   }
